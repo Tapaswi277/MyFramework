@@ -1,0 +1,71 @@
+$ mkdir satish
+FOLDER NAMED SATISH IS CREATED
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop (main)
+$ touch f1 f2 f3 f4
+
+EMPTY FILES F1,F2,F3,F4 IS CREATED ON DESKTOP
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop (main)
+$ cd satish
+
+DIRECTORY IS CHANGED TO SATISH
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ touch f5 f6 f7 f8 f9
+
+EMPTY FILES F5 F6 F7 F8 F9
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ mkdir tapaswi rudraunsh
+
+TWO FOLDERS TAPASWI RUDRAUNSH IS CREATED
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ ls
+f5  f6  f7  f8  f9  rudraunsh/  tapaswi/
+
+LIST OF FILES& FOLDERS PRESENT IN SATISH IS DISPLAYED
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ rm f6
+
+FILE F6 REMOVED
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ ls
+f5  f7  f8  f9  rudraunsh/  tapaswi/
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ rm f8
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ ls
+f5  f7  f9  rudraunsh/  tapaswi/
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ mkdir umamaheswari
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ ls
+f5  f7  f9  rudraunsh/  tapaswi/  umamaheswari/
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ rm -rf umamaheswari
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ ls
+f5  f7  f9  rudraunsh/  tapaswi/
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ cd ..
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop (main)
+$ cp f1 f2 f3 f4 satish/
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop (main)
+$ cd satish
+
+DELL@DESKTOP-RTJ0247 MINGW64 ~/Desktop/satish (main)
+$ ls
+f1  f2  f3  f4  f5  f7  f9  rudraunsh/  tapaswi/
